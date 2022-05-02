@@ -1,0 +1,263 @@
+!ACCNT	NAME	ACCNTTYPE	DESC
+!CLASS	NAME
+
+!TRNS	TRNSID	DOCNUM	TRNSTYPE	DATE	ACCNT	AMOUNT	MEMO	TOPRINT	NAME	CLASS
+!SPL	SPLID	DOCNUM	TRNSTYPE	DATE	ACCNT	AMOUNT	MEMO	CLASS
+!ENDTRNS
+
+ACCNT	Payroll Expenses:Wages	EXP	Wage Account - Employee Gross Pay
+ACCNT	Business Checking	BANK	Checking Account - Payroll
+ACCNT	Payroll Liabilities:MO Income Tax	OCLIAB	Payee Account - Total Taxes
+ACCNT	Payroll Liabilities:MO Local Tax	OCLIAB	Payee Account - Total Taxes
+ACCNT	Payroll Liabilities:Federal Unemployment (940)	OCLIAB	Payee Account - Total Taxes
+ACCNT	Payroll Liabilities:Federal Taxes (941/944)	OCLIAB	Payee Account - Total Taxes
+ACCNT	Payroll Liabilities:MO Unemployment Tax	OCLIAB	Payee Account - Total Taxes
+ACCNT	Payroll Expenses:Taxes	EXP	Tax Account - Employer Taxes
+TRNS			Check	12/20/2021	Business Checking	-1622.33	Pay Period: 12/13/2021-12/19/2021	N	Jean-Luc Picard	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	423.08	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	50.62	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-29.23	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-43.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-269.14	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-661.73	Pay Period: 12/13/2021-12/19/2021	N	William Riker	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	917.60	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	62.55	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-38.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-190.42	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-556.55	Pay Period: 12/13/2021-12/19/2021	N	Geordi La Forge	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	686.93	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	25.19	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-12.87	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-31.52	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	-1.72	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-1.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-88.46	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-231.63	Pay Period: 12/13/2021-12/19/2021	N	Tasha Yar	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	316.50	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	22.24	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-5.17	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-2.73	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-11.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-128.21	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-99.89	Pay Period: 12/13/2021-12/19/2021	N	Worf	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	67.45	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	7.67	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-0.87	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-0.46	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	-0.52	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	0.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-13.38	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-844.62	Pay Period: 12/13/2021-12/19/2021	N	Beverly Crusher	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	845.08	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	73.67	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-18.05	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-4.25	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	-4.83	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-27.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-187.00	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-916.24	Pay Period: 12/13/2021-12/19/2021	N	Lwaxana Troi	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	730.70	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	55.37	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-6.31	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-2.33	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	-3.79	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-17.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-39.40	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-627.75	Pay Period: 12/13/2021-12/19/2021	N	Q	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	674.00	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	41.57	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	-6.74	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-30.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-171.08	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/20/2021	Business Checking	-498.33	Pay Period: 12/13/2021-12/19/2021	N	The Traveler	
+SPL			Check	12/20/2021	Payroll Expenses:Wages	935.40	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/20/2021	Payroll Expenses:Taxes	37.43	Employer Taxes	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Local Tax	0.00	MO Local Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Unemployment Tax	-1.77	MO Unemployment Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/20/2021	Payroll Liabilities:MO Income Tax	-2.00	MO Income Tax	
+SPL			Check	12/20/2021	Payroll Liabilities:Federal Taxes (941/944)	-60.73	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-633.23	Pay Period: 12/20/2021-12/26/2021	N	Jean-Luc Picard	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	838.08	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	71.76	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-9.38	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-24.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-273.23	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-596.10	Pay Period: 12/20/2021-12/26/2021	N	William Riker	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	916.00	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	34.77	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-22.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-142.67	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-47.59	Pay Period: 12/20/2021-12/26/2021	N	Tasha Yar	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	34.00	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	6.51	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-0.74	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-0.39	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	-2.45	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	0.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-1.34	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-367.15	Pay Period: 12/20/2021-12/26/2021	N	Worf	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	391.60	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	22.75	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-3.52	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-1.85	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-3.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-33.83	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-899.64	Pay Period: 12/20/2021-12/26/2021	N	Q	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	742.35	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	30.06	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-3.42	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-1.51	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	-2.06	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-3.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-92.48	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-616.35	Pay Period: 12/20/2021-12/26/2021	N	Beverly Crusher	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	793.08	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	11.19	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-7.53	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-3.98	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	-1.59	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-24.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-172.82	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-218.63	Pay Period: 12/20/2021-12/26/2021	N	Q	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	412.75	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	64.47	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-3.93	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-2.07	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	-3.35	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-5.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-71.24	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-457.10	Pay Period: 12/20/2021-12/26/2021	N	Lwaxana Troi	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	613.50	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	14.58	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-7.14	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-22.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-151.84	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-179.23	Pay Period: 12/20/2021-12/26/2021	N	Geordi La Forge	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	137.00	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	19.65	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	0.00	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-0.88	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	0.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-15.54	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-917.62	Pay Period: 12/20/2021-12/26/2021	N	Wesley Crusher	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	897.60	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	78.85	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-4.68	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	-0.77	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-15.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-133.08	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/27/2021	Business Checking	-348.53	Pay Period: 12/20/2021-12/26/2021	N	The Traveler	
+SPL			Check	12/27/2021	Payroll Expenses:Wages	318.15	Gross Pay - This is not a legal pay stub	
+SPL			Check	12/27/2021	Payroll Expenses:Taxes	24.80	Employer Taxes	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Local Tax	-7.98	MO Local Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Unemployment Tax	0.00	MO Unemployment Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Unemployment (940)	0.00	Federal Unemployment (940)	
+SPL			Check	12/27/2021	Payroll Liabilities:MO Income Tax	-8.00	MO Income Tax	
+SPL			Check	12/27/2021	Payroll Liabilities:Federal Taxes (941/944)	-44.44	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	11/01/2021	Business Checking	-9560.85	Tax Payment for Period: 07/01/2021-09/30/2021	N	MO Division of Employment Security	
+SPL			Check	11/01/2021	Payroll Liabilities:MO Unemployment Tax	9780.85	MO Unemployment Tax	
+SPL			Check	11/01/2021	Payroll Liabilities:MO Unemployment Tax	-0.01	MO Unemployment Tax	
+SPL			Check	11/01/2021	Payroll Expenses:Taxes	0.01	MO Unemployment Tax	
+ENDTRNS
+TRNS			Check	10/14/2021	Business Checking	-9234.30	Tax Payment for Period: 10/06/2021-10/08/2021	N	IRS	
+SPL			Check	10/14/2021	Payroll Liabilities:Federal Taxes (941/944)	1334.30	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	10/20/2021	Business Checking	-9544.00	Tax Payment for Period: 09/01/2021-09/30/2021	N	MO Department of Revenue	
+SPL			Check	10/20/2021	Payroll Liabilities:MO Income Tax	9144.00	MO Income Tax	
+SPL			Check	10/20/2021	Payroll Liabilities:MO Income Tax	9213.00	MO Income Tax	
+SPL			Check	10/20/2021	Payroll Expenses:Taxes	-9711.00	MO Income Tax	
+ENDTRNS
+TRNS			Check	10/20/2021	Business Checking	-9511.78	Tax Payment for Period: 01/01/2021-09/30/2021	N	IRS	
+SPL			Check	10/20/2021	Payroll Liabilities:Federal Unemployment (940)	9718.78	Federal Unemployment (940)	
+ENDTRNS
+TRNS			Check	10/22/2021	Business Checking	-9271.29	Tax Payment for Period: 10/16/2021-10/19/2021	N	IRS	
+SPL			Check	10/22/2021	Payroll Liabilities:Federal Taxes (941/944)	9278.29	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	10/29/2021	Business Checking	-9461.90	Tax Payment for Period: 10/23/2021-10/26/2021	N	IRS	
+SPL			Check	10/29/2021	Payroll Liabilities:Federal Taxes (941/944)	9461.90	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	11/08/2021	Business Checking	-9621.00	Tax Payment for Period: 10/01/2021-10/31/2021	N	MO Department of Revenue	
+SPL			Check	11/08/2021	Payroll Liabilities:MO Income Tax	9621.00	MO Income Tax	
+SPL			Check	11/08/2021	Payroll Liabilities:MO Income Tax	9126.00	MO Income Tax	
+SPL			Check	11/08/2021	Payroll Expenses:Taxes	-9936.00	MO Income Tax	
+ENDTRNS
+TRNS			Check	11/05/2021	Business Checking	-9411.61	Tax Payment for Period: 10/30/2021-11/02/2021	N	IRS	
+SPL			Check	11/05/2021	Payroll Liabilities:Federal Taxes (941/944)	9215.61	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	11/15/2021	Business Checking	-9601.60	Tax Payment for Period: 11/06/2021-11/09/2021	N	IRS	
+SPL			Check	11/15/2021	Payroll Liabilities:Federal Taxes (941/944)	9208.60	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	11/19/2021	Business Checking	-9461.11	Tax Payment for Period: 11/13/2021-11/16/2021	N	IRS	
+SPL			Check	11/19/2021	Payroll Liabilities:Federal Taxes (941/944)	9414.11	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	11/29/2021	Business Checking	-9481.02	Tax Payment for Period: 11/20/2021-11/23/2021	N	IRS	
+SPL			Check	11/29/2021	Payroll Liabilities:Federal Taxes (941/944)	9188.02	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/03/2021	Business Checking	-9011.12	Tax Payment for Period: 11/27/2021-11/30/2021	N	IRS	
+SPL			Check	12/03/2021	Payroll Liabilities:Federal Taxes (941/944)	9112.12	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/08/2021	Business Checking	-9811.00	Tax Payment for Period: 11/01/2021-11/30/2021	N	MO Department of Revenue	
+SPL			Check	12/08/2021	Payroll Liabilities:MO Income Tax	9819.00	MO Income Tax	
+SPL			Check	12/08/2021	Payroll Liabilities:MO Income Tax	9998.00	MO Income Tax	
+SPL			Check	12/08/2021	Payroll Expenses:Taxes	-9151.00	MO Income Tax	
+ENDTRNS
+TRNS			Check	12/10/2021	Business Checking	-9391.57	Tax Payment for Period: 12/04/2021-12/07/2021	N	IRS	
+SPL			Check	12/10/2021	Payroll Liabilities:Federal Taxes (941/944)	1395.57	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/17/2021	Business Checking	-9341.55	Tax Payment for Period: 12/11/2021-12/14/2021	N	IRS	
+SPL			Check	12/17/2021	Payroll Liabilities:Federal Taxes (941/944)	1347.55	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/24/2021	Business Checking	-9331.43	Tax Payment for Period: 12/18/2021-12/21/2021	N	IRS	
+SPL			Check	12/24/2021	Payroll Liabilities:Federal Taxes (941/944)	1330.43	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	12/31/2021	Business Checking	-9161.51	Tax Payment for Period: 12/25/2021-12/28/2021	N	IRS	
+SPL			Check	12/31/2021	Payroll Liabilities:Federal Taxes (941/944)	1161.51	Federal Taxes (941/944)	
+ENDTRNS
+TRNS			Check	01/31/2022	Business Checking	-9471.96	Tax Payment for Period: 10/01/2021-12/31/2021	N	MO Division of Employment Security	
+SPL			Check	01/31/2022	Payroll Liabilities:MO Unemployment Tax	9476.96	MO Unemployment Tax	
+ENDTRNS
+TRNS			Check	01/19/2022	Business Checking	-9114.00	Tax Payment for Period: 12/01/2021-12/31/2021	N	MO Department of Revenue	
+SPL			Check	01/19/2022	Payroll Liabilities:MO Income Tax	9614.00	MO Income Tax	
+SPL			Check	01/19/2022	Payroll Liabilities:MO Income Tax	9036.00	MO Income Tax	
+SPL			Check	01/19/2022	Payroll Expenses:Taxes	-9116.00	MO Income Tax	
+ENDTRNS
+TRNS			Check	01/19/2022	Business Checking	-9141.94	Tax Payment for Period: 10/01/2021-12/31/2021	N	IRS	
+SPL			Check	01/19/2022	Payroll Liabilities:Federal Unemployment (940)	9241.94	Federal Unemployment (940)	
+ENDTRNS
